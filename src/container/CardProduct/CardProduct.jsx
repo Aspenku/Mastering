@@ -42,8 +42,8 @@ class CardProduct extends Component {
                         <div className="img-thumb-prod" >
                             <img src="https://image.shutterstock.com/image-photo/nila-goreng-bumbu-pedas-asam-600w-1539143858.jpg" alt="product-image"/>
                         </div> 
-                        <p className="product-title">Bumbu ayam rasa original kas Bali</p>
-                        <p className="product-price">Rp. 34.000</p>
+                        <p className="product-title">Bumbu ayam madura rasa yang pernah ada kas Bali</p>
+                        <p className="product-price">Rp. 45.000</p>
                         <div className="counter">
                                 <button className="minus" onClick={this.handleMinus}>-</button>
                                 <input type="text" value={this.state.order}></input>
