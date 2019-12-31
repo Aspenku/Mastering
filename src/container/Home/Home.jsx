@@ -7,7 +7,7 @@ class Home extends Component {
 
 
     state={
-        showComponent:true
+        showComponent:false
 
     }
     componentDidMount(){
@@ -16,7 +16,7 @@ class Home extends Component {
                 showComponent:false
             })
             
-        }, 3000);
+        }, 15000);
     }
     render(){
 
